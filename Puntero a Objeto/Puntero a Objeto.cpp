@@ -30,6 +30,7 @@ int main()
     Libro* ptrL=NULL;
     //creacion de objeto dinamico
     ptrL = new Libro("4564", "Biblia");
+    
 
     return 0;
 }
