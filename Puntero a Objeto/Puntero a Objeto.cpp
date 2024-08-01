@@ -28,7 +28,8 @@ int main()
     std::cout << "Objeto dinamico " << std::endl;
     //crear un puntero hacia un libro
     Libro* ptrL=NULL;
-
+    //creacion de objeto dinamico
+    ptrL = new Libro("4564", "Biblia");
 
     return 0;
 }
