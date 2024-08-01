@@ -25,7 +25,9 @@ public:
 
 int main()
 {
-    
+    std::cout << "Objeto dinamico " << std::endl;
+    //crear un puntero hacia un libro
+    Libro* ptrL=NULL;
 
 
     return 0;
