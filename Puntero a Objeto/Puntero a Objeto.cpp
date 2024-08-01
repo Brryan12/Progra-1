@@ -8,10 +8,13 @@ private:
     std::string titulo;
 public:
     Libro(std::string ISBN, std::string titulo) {
+        std::cout << "Se creo"<<std::endl;
         this->ISBN = ISBN;
         this->titulo = titulo;
     }
-    virtual ~Libro() {}
+    virtual ~Libro() {
+        std::cout << "Se fue"<<std::endl;
+    }
     std::string getISBN() { return ISBN; }
     std::string getTitulo() { return titulo; }
     std::string toString() {
@@ -32,6 +35,9 @@ int main()
     ptrL = new Libro("4564", "Biblia");
     
 
+
+    //Eliminar objeto
+    delete ptrL;
     return 0;
 }
 
