@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Punteros.cpp">
+    <ClCompile Include="Punteros String.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

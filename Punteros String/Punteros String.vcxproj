@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f5bb9de5-f613-43f5-9724-8c8e36644705}</ProjectGuid>
-    <RootNamespace>Punteros</RootNamespace>
+    <ProjectGuid>{43dee8bb-8401-43f6-b792-3b9db814e055}</ProjectGuid>
+    <RootNamespace>PunterosString</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Punteros.cpp" />
+    <ClCompile Include="Punteros String.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
